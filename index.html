@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Loan App</title>
+</head>
+<body>
+    <header>
+        <p>MAFIX</p>
+        <img src="images/img-1.png" alt="">
+        <p>QUICK LOAN</p>
+    </header>
+    <div id="genDiv">
+    <h2>LOAN PROCUREMENT FORM</h2>
+    <form action="">
+        <label for="" id="firstLb">Your Current Account Balance</label><br>
+        <input type="number" id="firstId" placeholder="Input Your Current Balance"><br>
+        <label for="" id="firstError"></label><br><br>
+
+        <label for="" id="annualLb">Annual Income</label><br>
+        <input type="number" id="annualId" placeholder="Input Your Annual Income"><br>
+        <label for="" id="annualError"></label><br><br>
+
+        <label for="" id="secondLb">Six Months Credit History</label><br>
+        <select name="" id="secondId">
+            <option value="">Select Credit History</option>
+            <option value="0">0/6 Months</option>
+            <option value="2">1/6 Months</option>
+            <option value="4">2/6 Months</option>
+            <option value="6">3/6 Months</option>
+            <option value="8">4/6 Months</option>
+            <option value="8">5/6 Months</option>
+            <option value="10">6/6 Months</option>
+        </select><br>
+        <label for="" id="secondError"></label><br><br>
+
+        <label for="" id="thirdLb">Last Deposit Date</label><br>
+        <input type="date" id="thirdId"><br>
+        <label for="" id="thirdError"></label><br><br>
+
+        <label for="" id="fourthLb">Last Loan Collection Date</label><br>
+        <input type="date" id="fourthId"><br>
+        <label for="" id="fourthError"></label><br><br>
+
+        <label for="" id="fifthLb">Loan Repayment Date</label><br>
+        <input type="date" name="" id="fifthId"><br>
+        <label for="" id="fifthError"></label><br><br>
+
+        <label for="" id="sixthLb">Account Operated Type</label><br>
+        <select name="" id="sixthId">
+            <option value="">Select Account Type</option>
+            <option value="5">Savings</option>
+            <option value="10">Current</option>
+        </select><br>
+        <label for="" id="sixthError"></label><br><br>
+
+        <label for="" id="seventhLb">Required Amount of Loan</label><br>
+        <input type="number" placeholder="Input Required Amount of Loan" id="seventhId"><br>
+        <label for="" id="seventhError"></label><br><br>
+    </form>
+
+    <button id="btn" type="button">Process</button><br><br>
+</div>
+    <label for="" id="finalResult"></label>
+
+    <script src="main.js"></script>
+</body>
+</html>
